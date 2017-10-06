@@ -43,6 +43,6 @@ export interface WebViewProps extends React.HTMLAttributes<Electron.WebviewTag>,
 }
 interface WebViewState {
   loaded: boolean
-  webview: Electron.WebViewElement
+  webview: Electron.WebviewTag
 }
 export default class WebView extends Component<WebViewProps, WebViewState> {}  
