@@ -2,7 +2,7 @@
 
 import { Component } from 'react';
 
-export interface WebViewProps extends React.HTMLAttributes<Electron.WebviewTag>, React.ClassAttributes<WebView> {
+export interface WebViewProps extends React.HTMLAttributes<Electron.WebviewTag> {
   src: string
   
   autosize?: boolean
